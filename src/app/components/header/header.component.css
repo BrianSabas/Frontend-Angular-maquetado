@@ -1,0 +1,22 @@
+
+.navbar {
+    background-color: #f0f0f0;
+    height: 5rem;
+    width: 100vw;
+    z-index: 200;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 10px;
+}
+
+.nav-item.nav-link {
+    font-weight: 500;
+    color: #a438fc;
+}
+
+.nav-item.nav-link:hover { 
+    color: #7f00c9;
+}
+
