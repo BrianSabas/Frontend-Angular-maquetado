@@ -12,6 +12,7 @@
 }
 
 .nav-item.nav-link {
+    font-size: 1.1rem;
     font-weight: 500;
     color: #a438fc;
 }
@@ -20,3 +21,9 @@
     color: #7f00c9;
 }
 
+
+.image {
+    position: relative;
+    top: 1.2rem;
+    width: 15rem;
+}
