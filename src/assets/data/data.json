@@ -7,9 +7,11 @@
 		"url": "#"
 	},
 	"hero": {
-		"image": "./laptop.jpeg"
+		"image": "./laptop.jpeg",
+        "title":"Desarrollador Web Full Stack",
+        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium unde, natus quod sunt expedita atque nisi ex temporibus nihil."
 	},
 	"about": "Estudiante del programa Argentina Programa",
 	"ubication": "Misiones (Argentina)"
-
+    
 }

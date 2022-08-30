@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-hero',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
-  constructor() { }
-
+  constructor( private portfolioDatos:PortfolioService ) {}
+  myPortfolio:any;
   ngOnInit(): void {
+    this.portfolioDatos.getData().subscribe(data => {
+      console.log(data);
+      this.myPortfolio=data;
+    });
   }
 
   // urlHero = '../assets/laptop.jpeg'
