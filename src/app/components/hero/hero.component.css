@@ -32,7 +32,7 @@
    display: block;
     text-decoration: none;
     font-weight: 500;
-    background-color: #549;
+    background-color: #548;
     color: azure;
     max-width: 200px;
     margin-left: auto;
@@ -40,4 +40,8 @@
     padding: 10px 10px;
     cursor: pointer;
     border-radius: 6px;
+}
+.hero-button:hover {
+    background-color: #539;
+    transition: ease .4s;
 }
