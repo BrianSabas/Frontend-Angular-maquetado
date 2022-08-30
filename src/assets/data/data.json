@@ -1,0 +1,15 @@
+{
+
+	"name": "Brian Sabaski",
+	"position": "Estudiante",
+	"logo": {
+		"img": "./logo.svg",
+		"url": "#"
+	},
+	"hero": {
+		"image": "./laptop.jpeg"
+	},
+	"about": "Estudiante del programa Argentina Programa",
+	"ubication": "Misiones (Argentina)"
+
+}
